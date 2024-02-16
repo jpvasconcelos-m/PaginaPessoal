@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahianita&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    background-color: #F0F7F4;
+}
+
+header {
+    background-color: #3C493F;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:#A2E3C4;
+    transition: 0.25s;
+    
+
+}
+
+main {
+    padding: 15px;
+}
+
+.tabcontent {
+   
+}
+
+footer {
+    
+    background-color:#7E8D85;
+    color: #F0F7F4;
+    padding: 10px;
+    text-align: center;
+    margin-top: 25%;
+
+  
+  }
+.aboutme{
+    text-align: justify;
+    line-height: 0.67cm;
+   
+    
+}
+.hobbies{
+    line-height: 0.55cm;
+}
+.email{
+    color: #A2E3C4;
+}
+
+.botaocontato{
+    margin-left: 1700px;
+    
+}
+.botaocontato a {
+
+    
+
+   
+    text-decoration: none;
+    font-size: 20px;
+  
+}
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+  display: block;
+}
+
+.tab-content {
+    margin-top: 10px;
+    display: none;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #7E8D85;
+    color: white;
+    
+  }
+
+  .tabs label {
+    padding: 10px 30px;
+    margin: 0;
+    cursor: pointer;
+    background-color:  #F0F7F4;
+    border: 1px solid;
+    
+    
+  }
+  .tabs label:hover{
+    background-color: #A2E3C4;
+  }
+  .tabs input[type="radio"] {
+    display: none;
+  }
+
+  
+
